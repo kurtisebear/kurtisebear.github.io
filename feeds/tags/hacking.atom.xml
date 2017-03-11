@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kurtisebear Blog - hacking</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/tags/hacking.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2017-03-11T21:13:00+00:00</updated><entry><title>newpost</title><link href="http://localhost:8000/newpost.html" rel="alternate"></link><published>2017-03-11T21:13:00+00:00</published><updated>2017-03-11T21:13:00+00:00</updated><author><name>KurtiseBear</name></author><id>tag:localhost,2017-03-11:/newpost.html</id><summary type="html">&lt;p class="first last"&gt;random crap here&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;test&lt;/p&gt;
+</content><category term="hacking"></category><category term="random"></category></entry></feed>
