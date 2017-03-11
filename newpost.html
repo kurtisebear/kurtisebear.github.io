@@ -67,7 +67,7 @@
     <nav class="nav">
       <ul class="list-bare">
       
-          <li><a class="nav__link" href="http://localhost:8000">Blog</a></li>
+          <li><a class="nav__link" href="www.kurtisebear.com">Blog</a></li>
          
         
       </ul>
@@ -76,7 +76,7 @@
     <p class="social">
         <a href="https://twitter.com/kurtisebearuk" target="_blank" ><img src="./theme/images/icons/twitter.png"></a>
         <a href="https://www.linkedin.com/in/KurtisABaron" target="_blank" ><img src="./theme/images/icons/linkedin.png"></a>
-        <a href="https://github.com/ametaireau" target="_blank" ><img src="./theme/images/icons/github.png"></a>
+        <a href="https://github.com/kurtisebear" target="_blank" ><img src="./theme/images/icons/github.png"></a>
       <a href="./feeds/all.atom.xml" rel="alternate">
         <img src="./theme/images/icons/rss.png"></a>
     </p>
@@ -116,6 +116,20 @@
 
                 <span class="mail"><a href="mailto:?subject=newpost&amp;body=Check out this blog post about  [newpost] written by KurtiseBear. ./newpost.html" title="Share by Email" target="_blank"><img src="./theme/images/icons/mail-s.png"></a></span>
             </div>
+        </div>
+        <div class="comments">
+            <h2>Comments !</h2>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+            var disqus_identifier = "newpost.html";
+            (function() {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'https://kurtisebear.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] ||
+                 document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            </script>
         </div>
     </article>
 </section>
